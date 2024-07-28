@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">My_Website</div>
+    <nav>
+      <ul>
+        <li><a href="#beranda">BERANDA</a></li>
+         <li><a href="#profil">PROFIL</a></li>
+        <li><a href="#audio-video">AUDIO VIDEO</a></li>
+        <li><a href="#tentang">TENTANG</a></li>
+        <li><a href="#berita">BERITA</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="beranda">
+    <h2>Selamat Datang di Website saya</h2>
+    <p>Ini adalah halaman beranda.</p>
+  </section>
+
+  <section id="profil">
+    <h2>Profil Saya</h2>
+    <p> 
+      <form action="#" style="width: 700px;" class="posisi">
+        <fieldset class="h">
+        <table>
+            <body style="background-color: greenyellow;">  
+            </body>
+            <tr>
+                <td rowspan="12" width="100px">
+                    <img src="Gambar WhatsApp 2024-07-28 pukul 08.51.45_0f70532f.jpg" alt="" width="150px" height="200px" border="5">
+                </td>
+            </tr>
+            <tr>
+                <td><b>Nama Lengkap</b></td>
+                <td>: Puput Juniar</td>
+            </tr>
+            <tr>
+                <td><b>Nama Panggilan</b></td>
+                <td>: puput</td>
+            </tr>
+            <tr>
+                <td><b>NIM</b></td>
+                <td>: 16323034</td>
+            </tr>
+            <tr>
+                <td><b>TTL</b></td>
+                <td>: sorong,29 juni 2005</td>
+            </tr>
+            <tr>
+                <td><b>Alamat</b></td>
+                <td>: sebrang</td>
+            </tr>
+    
+            <tr>
+                <td><b>Jenis Kelamin</b></td>
+                <td>: Perempuan</td>
+            </tr>
+    
+            <tr>
+                <td><b>Agama</b></td>
+                <td>: Islam</td>
+            </tr>
+    
+            <tr>
+                <td><b>Email</b></td>
+                <td>:puputsehatdancantik222@gmail.com</td>
+            </tr>
+    
+            <tr>
+                <td><b>No Telepon</b></td>
+                <td>: 092236172961</td>
+            </tr>
+            <tr>
+                <td><b>Hobi</b></td>
+                <td>: bermain gitar</td>
+            </tr>
+    
+        </table>
+    </fieldset>
+    </form>
+    </p>
+  </section>
+
+  <section id="audio-video">
+    <h2>Audio dan Video</h2>
+    <p>Ini adalah halaman audio dan video.</p>
+    <audio controls src="Audio .mp3"></audio>
+    <video controls autoplay src="video.mp4" width="250" height="250"></video>
+  </section>
+
+  <section id="tentang">
+    <h2>Tentang </h2>
+    <p>....................</p>
+  </section>
+
+  <section id="berita">
+    <h2>Berita Terbaru</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ea est deserunt
+      minus dolorum illo doloremque, repellat ad minima magni laudantium? Alias sit
+       unde in et, perspiciatis perferendis eum commodi!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ea est deserunt
+       minus dolorum illo doloremque, repellat ad minima magni laudantium? Alias sit
+        unde in et, perspiciatis perferendis eum commodi!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ea est deserunt
+        minus dolorum illo doloremque, repellat ad minima magni laudantium? Alias sit
+         unde in et, perspiciatis perferendis eum commodi!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ea est deserunt
+         minus dolorum illo doloremque, repellat ad minima magni laudantium? Alias sit
+          unde in et, perspiciatis perferendis eum commodi!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ea est deserunt
+          minus dolorum illo doloremque, repellat ad minima magni laudantium? Alias sit
+           unde in et, perspiciatis perferendis eum commodi!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ea est deserunt
+           minus dolorum illo doloremque, repellat ad minima magni laudantium? Alias sit
+            unde in et, perspiciatis perferendis eum commodi!
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; Puput Juniar</p>
+  </footer>
+
+  <script>
+    // Add smooth scrolling behavior
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = e.target.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
